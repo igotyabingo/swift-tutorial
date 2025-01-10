@@ -1,24 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__rockscissor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~~가위바위보를 해보자~~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3t-kd-vxV">
+                                <rect key="frame" x="80.666666666666686" y="164" width="232" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU LOSE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLf-5r-cNk">
+                                <rect key="frame" x="113" y="105" width="167" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <color key="textColor" red="0.88235294819999999" green="0.59607845540000004" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상대:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycb-Pf-XYK">
+                                <rect key="frame" x="177.66666666666666" y="226" width="38" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당신:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYj-64-xab">
+                                <rect key="frame" x="177.66666666666666" y="625" width="38" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defalt_you.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4T2-Ml-R1w">
+                                <rect key="frame" x="-53.666666666666657" y="276" width="500.33333333333326" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="sNO-ik-zo9"/>
+                                    <constraint firstAttribute="width" constant="500.32999999999998" id="yek-QU-wny"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_me.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k3C-Cy-PE0">
+                                <rect key="frame" x="-53.666666666666657" y="452" width="500.33333333333326" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500.32999999999998" id="Ldr-hj-xfc"/>
+                                    <constraint firstAttribute="height" constant="145" id="Yq3-Ii-hXk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGc-9E-ZO8">
+                                <rect key="frame" x="166" y="681" width="61" height="40"/>
+                                <color key="backgroundColor" red="0.77719200279068346" green="0.85500675491736311" blue="0.90101481958762886" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yGc-9E-ZO8" secondAttribute="height" multiplier="61:40" id="4Z1-nY-evT"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="바위" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lx1-gA-wvQ">
+                                <rect key="frame" x="166" y="735" width="61" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.87188585490000003" blue="0.84053202199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Lx1-gA-wvQ" secondAttribute="height" multiplier="61:40" id="SRl-K8-PQ6"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="준비" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T47-gI-ZXK">
+                                <rect key="frame" x="252" y="681" width="61" height="40"/>
+                                <color key="backgroundColor" red="0.7771920028" green="0.8550067549" blue="0.90101481959999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="T47-gI-ZXK" secondAttribute="height" multiplier="61:40" id="AGL-Jz-koz"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="보" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfy-KS-YTo">
+                                <rect key="frame" x="80" y="681" width="61" height="40"/>
+                                <color key="backgroundColor" red="0.7771920028" green="0.8550067549" blue="0.90101481959999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Jfy-KS-YTo" secondAttribute="height" multiplier="61:40" id="Gw4-74-Yzw"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="가위" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yGc-9E-ZO8" firstAttribute="top" secondItem="QYj-64-xab" secondAttribute="bottom" constant="33" id="9Zv-GT-akF"/>
+                            <constraint firstItem="4T2-Ml-R1w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-77.5" id="Dgf-3r-Ob6"/>
+                            <constraint firstItem="yGc-9E-ZO8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GVQ-qa-YAP"/>
+                            <constraint firstItem="QYj-64-xab" firstAttribute="top" secondItem="k3C-Cy-PE0" secondAttribute="bottom" constant="28" id="KiW-n8-OKo"/>
+                            <constraint firstItem="Ycb-Pf-XYK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LcH-Gg-6lx"/>
+                            <constraint firstItem="T47-gI-ZXK" firstAttribute="leading" secondItem="yGc-9E-ZO8" secondAttribute="trailing" constant="25" id="OZJ-Yl-aaq"/>
+                            <constraint firstItem="k3C-Cy-PE0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="98.5" id="P3w-kT-03F"/>
+                            <constraint firstItem="Jfy-KS-YTo" firstAttribute="top" secondItem="k3C-Cy-PE0" secondAttribute="bottom" constant="84" id="QO8-uu-8ro"/>
+                            <constraint firstItem="n3t-kd-vxV" firstAttribute="top" secondItem="NLf-5r-cNk" secondAttribute="bottom" constant="17" id="RWA-ti-uDT"/>
+                            <constraint firstItem="Lx1-gA-wvQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ryw-NW-FoD"/>
+                            <constraint firstItem="Lx1-gA-wvQ" firstAttribute="top" secondItem="yGc-9E-ZO8" secondAttribute="bottom" constant="14" id="Zms-Yj-1yu"/>
+                            <constraint firstItem="Ycb-Pf-XYK" firstAttribute="top" secondItem="n3t-kd-vxV" secondAttribute="bottom" constant="35" id="euz-NM-ct9"/>
+                            <constraint firstItem="4T2-Ml-R1w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fAY-5f-TXB"/>
+                            <constraint firstItem="n3t-kd-vxV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hUX-Zq-mUs"/>
+                            <constraint firstItem="QYj-64-xab" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jWt-I4-dLU"/>
+                            <constraint firstItem="NLf-5r-cNk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kOm-gw-ZWF"/>
+                            <constraint firstItem="yGc-9E-ZO8" firstAttribute="leading" secondItem="Jfy-KS-YTo" secondAttribute="trailing" constant="25" id="kkZ-ad-Uev"/>
+                            <constraint firstItem="T47-gI-ZXK" firstAttribute="top" secondItem="k3C-Cy-PE0" secondAttribute="bottom" constant="84" id="vmG-71-svc"/>
+                            <constraint firstItem="k3C-Cy-PE0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zJN-ii-Pdd"/>
+                            <constraint firstItem="4T2-Ml-R1w" firstAttribute="top" secondItem="Ycb-Pf-XYK" secondAttribute="bottom" constant="27" id="zSh-Sy-kKC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-170.22900763358777" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="defalt_you.jpg" width="500" height="500"/>
+        <image name="default_me.jpg" width="500" height="500"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
