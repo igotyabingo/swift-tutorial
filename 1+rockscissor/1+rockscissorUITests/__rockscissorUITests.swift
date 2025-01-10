@@ -1,13 +1,13 @@
 //
-//  rockscissorUITests.swift
-//  rockscissorUITests
+//  __rockscissorUITests.swift
+//  1+rockscissorUITests
 //
 //  Created by woo on 1/10/25.
 //
 
 import XCTest
 
-final class rockscissorUITests: XCTestCase {
+final class __rockscissorUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

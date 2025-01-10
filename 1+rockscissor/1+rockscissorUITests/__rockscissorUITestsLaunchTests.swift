@@ -1,13 +1,13 @@
 //
-//  rockscissorUITestsLaunchTests.swift
-//  rockscissorUITests
+//  __rockscissorUITestsLaunchTests.swift
+//  1+rockscissorUITests
 //
 //  Created by woo on 1/10/25.
 //
 
 import XCTest
 
-final class rockscissorUITestsLaunchTests: XCTestCase {
+final class __rockscissorUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

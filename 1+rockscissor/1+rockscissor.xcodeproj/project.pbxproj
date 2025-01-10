@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		F371632F2D30DBFF00F2C852 /* PBXContainerItemProxy */ = {
+		F371636C2D30E04500F2C852 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F37163102D30DBFD00F2C852 /* Project object */;
+			containerPortal = F371634D2D30E04300F2C852 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F37163172D30DBFD00F2C852;
-			remoteInfo = rockscissor;
+			remoteGlobalIDString = F37163542D30E04300F2C852;
+			remoteInfo = "1+rockscissor";
 		};
-		F37163392D30DBFF00F2C852 /* PBXContainerItemProxy */ = {
+		F37163762D30E04500F2C852 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F37163102D30DBFD00F2C852 /* Project object */;
+			containerPortal = F371634D2D30E04300F2C852 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F37163172D30DBFD00F2C852;
-			remoteInfo = rockscissor;
+			remoteGlobalIDString = F37163542D30E04300F2C852;
+			remoteInfo = "1+rockscissor";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F37163182D30DBFD00F2C852 /* rockscissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rockscissor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F371632E2D30DBFF00F2C852 /* rockscissorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rockscissorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F37163382D30DBFF00F2C852 /* rockscissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rockscissorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37163552D30E04300F2C852 /* 1+rockscissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1+rockscissor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F371636B2D30E04500F2C852 /* 1+rockscissorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1+rockscissorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37163752D30E04500F2C852 /* 1+rockscissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1+rockscissorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F37163402D30DBFF00F2C852 /* Exceptions for "rockscissor" folder in "rockscissor" target */ = {
+		F371637D2D30E04500F2C852 /* Exceptions for "1+rockscissor" folder in "1+rockscissor" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F37163172D30DBFD00F2C852 /* rockscissor */;
+			target = F37163542D30E04300F2C852 /* 1+rockscissor */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F371631A2D30DBFD00F2C852 /* rockscissor */ = {
+		F37163572D30E04300F2C852 /* 1+rockscissor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F37163402D30DBFF00F2C852 /* Exceptions for "rockscissor" folder in "rockscissor" target */,
+				F371637D2D30E04500F2C852 /* Exceptions for "1+rockscissor" folder in "1+rockscissor" target */,
 			);
-			path = rockscissor;
+			path = "1+rockscissor";
 			sourceTree = "<group>";
 		};
-		F37163312D30DBFF00F2C852 /* rockscissorTests */ = {
+		F371636E2D30E04500F2C852 /* 1+rockscissorTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = rockscissorTests;
+			path = "1+rockscissorTests";
 			sourceTree = "<group>";
 		};
-		F371633B2D30DBFF00F2C852 /* rockscissorUITests */ = {
+		F37163782D30E04500F2C852 /* 1+rockscissorUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = rockscissorUITests;
+			path = "1+rockscissorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F37163152D30DBFD00F2C852 /* Frameworks */ = {
+		F37163522D30E04300F2C852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F371632B2D30DBFF00F2C852 /* Frameworks */ = {
+		F37163682D30E04500F2C852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F37163352D30DBFF00F2C852 /* Frameworks */ = {
+		F37163722D30E04500F2C852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F371630F2D30DBFD00F2C852 = {
+		F371634C2D30E04300F2C852 = {
 			isa = PBXGroup;
 			children = (
-				F371631A2D30DBFD00F2C852 /* rockscissor */,
-				F37163312D30DBFF00F2C852 /* rockscissorTests */,
-				F371633B2D30DBFF00F2C852 /* rockscissorUITests */,
-				F37163192D30DBFD00F2C852 /* Products */,
+				F37163572D30E04300F2C852 /* 1+rockscissor */,
+				F371636E2D30E04500F2C852 /* 1+rockscissorTests */,
+				F37163782D30E04500F2C852 /* 1+rockscissorUITests */,
+				F37163562D30E04300F2C852 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F37163192D30DBFD00F2C852 /* Products */ = {
+		F37163562D30E04300F2C852 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F37163182D30DBFD00F2C852 /* rockscissor.app */,
-				F371632E2D30DBFF00F2C852 /* rockscissorTests.xctest */,
-				F37163382D30DBFF00F2C852 /* rockscissorUITests.xctest */,
+				F37163552D30E04300F2C852 /* 1+rockscissor.app */,
+				F371636B2D30E04500F2C852 /* 1+rockscissorTests.xctest */,
+				F37163752D30E04500F2C852 /* 1+rockscissorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F37163172D30DBFD00F2C852 /* rockscissor */ = {
+		F37163542D30E04300F2C852 /* 1+rockscissor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37163412D30DBFF00F2C852 /* Build configuration list for PBXNativeTarget "rockscissor" */;
+			buildConfigurationList = F371637E2D30E04500F2C852 /* Build configuration list for PBXNativeTarget "1+rockscissor" */;
 			buildPhases = (
-				F37163142D30DBFD00F2C852 /* Sources */,
-				F37163152D30DBFD00F2C852 /* Frameworks */,
-				F37163162D30DBFD00F2C852 /* Resources */,
+				F37163512D30E04300F2C852 /* Sources */,
+				F37163522D30E04300F2C852 /* Frameworks */,
+				F37163532D30E04300F2C852 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F371631A2D30DBFD00F2C852 /* rockscissor */,
+				F37163572D30E04300F2C852 /* 1+rockscissor */,
 			);
-			name = rockscissor;
+			name = "1+rockscissor";
 			packageProductDependencies = (
 			);
-			productName = rockscissor;
-			productReference = F37163182D30DBFD00F2C852 /* rockscissor.app */;
+			productName = "1+rockscissor";
+			productReference = F37163552D30E04300F2C852 /* 1+rockscissor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F371632D2D30DBFF00F2C852 /* rockscissorTests */ = {
+		F371636A2D30E04500F2C852 /* 1+rockscissorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37163462D30DBFF00F2C852 /* Build configuration list for PBXNativeTarget "rockscissorTests" */;
+			buildConfigurationList = F37163832D30E04500F2C852 /* Build configuration list for PBXNativeTarget "1+rockscissorTests" */;
 			buildPhases = (
-				F371632A2D30DBFF00F2C852 /* Sources */,
-				F371632B2D30DBFF00F2C852 /* Frameworks */,
-				F371632C2D30DBFF00F2C852 /* Resources */,
+				F37163672D30E04500F2C852 /* Sources */,
+				F37163682D30E04500F2C852 /* Frameworks */,
+				F37163692D30E04500F2C852 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F37163302D30DBFF00F2C852 /* PBXTargetDependency */,
+				F371636D2D30E04500F2C852 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F37163312D30DBFF00F2C852 /* rockscissorTests */,
+				F371636E2D30E04500F2C852 /* 1+rockscissorTests */,
 			);
-			name = rockscissorTests;
+			name = "1+rockscissorTests";
 			packageProductDependencies = (
 			);
-			productName = rockscissorTests;
-			productReference = F371632E2D30DBFF00F2C852 /* rockscissorTests.xctest */;
+			productName = "1+rockscissorTests";
+			productReference = F371636B2D30E04500F2C852 /* 1+rockscissorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F37163372D30DBFF00F2C852 /* rockscissorUITests */ = {
+		F37163742D30E04500F2C852 /* 1+rockscissorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37163492D30DBFF00F2C852 /* Build configuration list for PBXNativeTarget "rockscissorUITests" */;
+			buildConfigurationList = F37163862D30E04500F2C852 /* Build configuration list for PBXNativeTarget "1+rockscissorUITests" */;
 			buildPhases = (
-				F37163342D30DBFF00F2C852 /* Sources */,
-				F37163352D30DBFF00F2C852 /* Frameworks */,
-				F37163362D30DBFF00F2C852 /* Resources */,
+				F37163712D30E04500F2C852 /* Sources */,
+				F37163722D30E04500F2C852 /* Frameworks */,
+				F37163732D30E04500F2C852 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F371633A2D30DBFF00F2C852 /* PBXTargetDependency */,
+				F37163772D30E04500F2C852 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F371633B2D30DBFF00F2C852 /* rockscissorUITests */,
+				F37163782D30E04500F2C852 /* 1+rockscissorUITests */,
 			);
-			name = rockscissorUITests;
+			name = "1+rockscissorUITests";
 			packageProductDependencies = (
 			);
-			productName = rockscissorUITests;
-			productReference = F37163382D30DBFF00F2C852 /* rockscissorUITests.xctest */;
+			productName = "1+rockscissorUITests";
+			productReference = F37163752D30E04500F2C852 /* 1+rockscissorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F37163102D30DBFD00F2C852 /* Project object */ = {
+		F371634D2D30E04300F2C852 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					F37163172D30DBFD00F2C852 = {
+					F37163542D30E04300F2C852 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					F371632D2D30DBFF00F2C852 = {
+					F371636A2D30E04500F2C852 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = F37163172D30DBFD00F2C852;
+						TestTargetID = F37163542D30E04300F2C852;
 					};
-					F37163372D30DBFF00F2C852 = {
+					F37163742D30E04500F2C852 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = F37163172D30DBFD00F2C852;
+						TestTargetID = F37163542D30E04300F2C852;
 					};
 				};
 			};
-			buildConfigurationList = F37163132D30DBFD00F2C852 /* Build configuration list for PBXProject "rockscissor" */;
+			buildConfigurationList = F37163502D30E04300F2C852 /* Build configuration list for PBXProject "1+rockscissor" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F371630F2D30DBFD00F2C852;
+			mainGroup = F371634C2D30E04300F2C852;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F37163192D30DBFD00F2C852 /* Products */;
+			productRefGroup = F37163562D30E04300F2C852 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F37163172D30DBFD00F2C852 /* rockscissor */,
-				F371632D2D30DBFF00F2C852 /* rockscissorTests */,
-				F37163372D30DBFF00F2C852 /* rockscissorUITests */,
+				F37163542D30E04300F2C852 /* 1+rockscissor */,
+				F371636A2D30E04500F2C852 /* 1+rockscissorTests */,
+				F37163742D30E04500F2C852 /* 1+rockscissorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F37163162D30DBFD00F2C852 /* Resources */ = {
+		F37163532D30E04300F2C852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F371632C2D30DBFF00F2C852 /* Resources */ = {
+		F37163692D30E04500F2C852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F37163362D30DBFF00F2C852 /* Resources */ = {
+		F37163732D30E04500F2C852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F37163142D30DBFD00F2C852 /* Sources */ = {
+		F37163512D30E04300F2C852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F371632A2D30DBFF00F2C852 /* Sources */ = {
+		F37163672D30E04500F2C852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F37163342D30DBFF00F2C852 /* Sources */ = {
+		F37163712D30E04500F2C852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F37163302D30DBFF00F2C852 /* PBXTargetDependency */ = {
+		F371636D2D30E04500F2C852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F37163172D30DBFD00F2C852 /* rockscissor */;
-			targetProxy = F371632F2D30DBFF00F2C852 /* PBXContainerItemProxy */;
+			target = F37163542D30E04300F2C852 /* 1+rockscissor */;
+			targetProxy = F371636C2D30E04500F2C852 /* PBXContainerItemProxy */;
 		};
-		F371633A2D30DBFF00F2C852 /* PBXTargetDependency */ = {
+		F37163772D30E04500F2C852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F37163172D30DBFD00F2C852 /* rockscissor */;
-			targetProxy = F37163392D30DBFF00F2C852 /* PBXContainerItemProxy */;
+			target = F37163542D30E04300F2C852 /* 1+rockscissor */;
+			targetProxy = F37163762D30E04500F2C852 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F37163422D30DBFF00F2C852 /* Debug */ = {
+		F371637F2D30E04500F2C852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75LH226TN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = rockscissor/Info.plist;
+				INFOPLIST_FILE = "1+rockscissor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.rockscissor;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myname.--rockscissor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		F37163432D30DBFF00F2C852 /* Release */ = {
+		F37163802D30E04500F2C852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75LH226TN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = rockscissor/Info.plist;
+				INFOPLIST_FILE = "1+rockscissor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.rockscissor;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myname.--rockscissor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,7 +338,7 @@
 			};
 			name = Release;
 		};
-		F37163442D30DBFF00F2C852 /* Debug */ = {
+		F37163812D30E04500F2C852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		F37163452D30DBFF00F2C852 /* Release */ = {
+		F37163822D30E04500F2C852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -457,7 +457,7 @@
 			};
 			name = Release;
 		};
-		F37163472D30DBFF00F2C852 /* Debug */ = {
+		F37163842D30E04500F2C852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,16 +467,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.rockscissorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myname.--rockscissorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rockscissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rockscissor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1+rockscissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1+rockscissor";
 			};
 			name = Debug;
 		};
-		F37163482D30DBFF00F2C852 /* Release */ = {
+		F37163852D30E04500F2C852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,16 +486,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.rockscissorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myname.--rockscissorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rockscissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rockscissor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1+rockscissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1+rockscissor";
 			};
 			name = Release;
 		};
-		F371634A2D30DBFF00F2C852 /* Debug */ = {
+		F37163872D30E04500F2C852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -503,16 +503,16 @@
 				DEVELOPMENT_TEAM = 75LH226TN7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.rockscissorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myname.--rockscissorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = rockscissor;
+				TEST_TARGET_NAME = "1+rockscissor";
 			};
 			name = Debug;
 		};
-		F371634B2D30DBFF00F2C852 /* Release */ = {
+		F37163882D30E04500F2C852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -520,55 +520,55 @@
 				DEVELOPMENT_TEAM = 75LH226TN7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.rockscissorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myname.--rockscissorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = rockscissor;
+				TEST_TARGET_NAME = "1+rockscissor";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F37163132D30DBFD00F2C852 /* Build configuration list for PBXProject "rockscissor" */ = {
+		F37163502D30E04300F2C852 /* Build configuration list for PBXProject "1+rockscissor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F37163442D30DBFF00F2C852 /* Debug */,
-				F37163452D30DBFF00F2C852 /* Release */,
+				F37163812D30E04500F2C852 /* Debug */,
+				F37163822D30E04500F2C852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37163412D30DBFF00F2C852 /* Build configuration list for PBXNativeTarget "rockscissor" */ = {
+		F371637E2D30E04500F2C852 /* Build configuration list for PBXNativeTarget "1+rockscissor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F37163422D30DBFF00F2C852 /* Debug */,
-				F37163432D30DBFF00F2C852 /* Release */,
+				F371637F2D30E04500F2C852 /* Debug */,
+				F37163802D30E04500F2C852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37163462D30DBFF00F2C852 /* Build configuration list for PBXNativeTarget "rockscissorTests" */ = {
+		F37163832D30E04500F2C852 /* Build configuration list for PBXNativeTarget "1+rockscissorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F37163472D30DBFF00F2C852 /* Debug */,
-				F37163482D30DBFF00F2C852 /* Release */,
+				F37163842D30E04500F2C852 /* Debug */,
+				F37163852D30E04500F2C852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37163492D30DBFF00F2C852 /* Build configuration list for PBXNativeTarget "rockscissorUITests" */ = {
+		F37163862D30E04500F2C852 /* Build configuration list for PBXNativeTarget "1+rockscissorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F371634A2D30DBFF00F2C852 /* Debug */,
-				F371634B2D30DBFF00F2C852 /* Release */,
+				F37163872D30E04500F2C852 /* Debug */,
+				F37163882D30E04500F2C852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F37163102D30DBFD00F2C852 /* Project object */;
+	rootObject = F371634D2D30E04300F2C852 /* Project object */;
 }

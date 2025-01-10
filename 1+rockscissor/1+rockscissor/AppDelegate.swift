@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  rockscissor
+//  1+rockscissor
 //
 //  Created by woo on 1/10/25.
 //
