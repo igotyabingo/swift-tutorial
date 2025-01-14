@@ -22,8 +22,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU LOSE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLf-5r-cNk">
-                                <rect key="frame" x="113" y="105" width="167" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLf-5r-cNk">
+                                <rect key="frame" x="196.66666666666666" y="147" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                 <color key="textColor" red="0.88235294819999999" green="0.59607845540000004" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -40,13 +40,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defalt_you.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4T2-Ml-R1w">
-                                <rect key="frame" x="-53.666666666666657" y="276" width="500.33333333333326" height="145"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="145" id="sNO-ik-zo9"/>
-                                    <constraint firstAttribute="width" constant="500.32999999999998" id="yek-QU-wny"/>
-                                </constraints>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_me.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k3C-Cy-PE0">
                                 <rect key="frame" x="-53.666666666666657" y="452" width="500.33333333333326" height="145"/>
                                 <constraints>
@@ -65,6 +58,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="바위" cornerStyle="small">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rockButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="hY4-fw-jmE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lx1-gA-wvQ">
                                 <rect key="frame" x="166" y="735" width="61" height="40"/>
@@ -77,6 +73,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="준비" cornerStyle="small">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapReset" destination="BYZ-38-t0r" eventType="touchUpInside" id="KR8-kK-GQF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T47-gI-ZXK">
                                 <rect key="frame" x="252" y="681" width="61" height="40"/>
@@ -89,6 +88,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="보" cornerStyle="small">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="paperButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="goE-pj-79g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfy-KS-YTo">
                                 <rect key="frame" x="80" y="681" width="61" height="40"/>
@@ -101,7 +103,17 @@
                                 <buttonConfiguration key="configuration" style="plain" title="가위" cornerStyle="small">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="scissorButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="vEG-8e-LDQ"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_you.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4T2-Ml-R1w">
+                                <rect key="frame" x="-53.666666666666657" y="276" width="500.33333333333326" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="sNO-ik-zo9"/>
+                                    <constraint firstAttribute="width" constant="500.32999999999998" id="yek-QU-wny"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -128,6 +140,11 @@
                             <constraint firstItem="4T2-Ml-R1w" firstAttribute="top" secondItem="Ycb-Pf-XYK" secondAttribute="bottom" constant="27" id="zSh-Sy-kKC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="computerImage" destination="4T2-Ml-R1w" id="smN-rt-Jgg"/>
+                        <outlet property="messageLabel" destination="NLf-5r-cNk" id="ieQ-T0-uCi"/>
+                        <outlet property="playerImage" destination="k3C-Cy-PE0" id="2qD-eH-gTn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -135,8 +152,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defalt_you.jpg" width="500" height="500"/>
         <image name="default_me.jpg" width="500" height="500"/>
+        <image name="default_you.jpg" width="500" height="500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
