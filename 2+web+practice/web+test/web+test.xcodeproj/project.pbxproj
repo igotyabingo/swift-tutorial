@@ -27,6 +27,7 @@
 		F30CB28A2D377DED0013AE90 /* web+test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web+test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30CB2A02D377DEF0013AE90 /* web+testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web+testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30CB2AA2D377DEF0013AE90 /* web+testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web+testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30CB2BF2D377EB60013AE90 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -91,6 +92,7 @@
 				F30CB28C2D377DED0013AE90 /* web+test */,
 				F30CB2A32D377DEF0013AE90 /* web+testTests */,
 				F30CB2AD2D377DEF0013AE90 /* web+testUITests */,
+				F30CB2BE2D377EB60013AE90 /* Frameworks */,
 				F30CB28B2D377DED0013AE90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +105,14 @@
 				F30CB2AA2D377DEF0013AE90 /* web+testUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F30CB2BE2D377EB60013AE90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30CB2BF2D377EB60013AE90 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
