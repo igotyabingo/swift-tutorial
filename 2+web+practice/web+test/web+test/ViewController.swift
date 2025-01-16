@@ -14,7 +14,7 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
     @IBOutlet weak var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // 1. 기본 WKWebView
         if let url = URL(string: "https://youtu.be/uY-lOn0XwBg?si=rCS4Vb-iKBY_FGSC") {
             //  URL 객체 생성, 생성된 객체 url이 nil이 아니라면
@@ -42,4 +42,3 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
     }
     
 }
-
