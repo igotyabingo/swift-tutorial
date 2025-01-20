@@ -16,44 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="un8-mc-Car">
-                                <rect key="frame" x="16" y="74" width="361" height="258"/>
+                            <wkWebView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DAa-ja-QYI">
+                                <rect key="frame" x="23" y="94" width="346" height="200"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DAa-ja-QYI" secondAttribute="height" multiplier="173:100" id="OzU-0V-IbD"/>
+                                </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thu-rb-v4l">
-                                <rect key="frame" x="125.33333333333333" y="349" width="142.33333333333337" height="39.666666666666629"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Thu-rb-v4l" secondAttribute="height" multiplier="140:39" id="t6j-vw-FQF"/>
-                                </constraints>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Listen Now!">
-                                    <backgroundConfiguration key="background" strokeWidth="1">
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="strokeColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="tapBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Uy-sS-s4p"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Thu-rb-v4l" firstAttribute="top" secondItem="un8-mc-Car" secondAttribute="bottom" constant="17" id="QsH-Mt-gWr"/>
-                            <constraint firstItem="Thu-rb-v4l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uee-hy-Pbp"/>
-                            <constraint firstItem="un8-mc-Car" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="exZ-6Y-eKp"/>
-                            <constraint firstItem="un8-mc-Car" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="sRQ-Er-9qw"/>
+                            <constraint firstItem="DAa-ja-QYI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9zH-a8-rGK"/>
+                            <constraint firstItem="DAa-ja-QYI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="LYN-3b-3nk"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="un8-mc-Car" id="ZNC-3b-uXS"/>
+                        <outlet property="videoView" destination="DAa-ja-QYI" id="aYi-2b-zYa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
