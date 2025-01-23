@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  3+multipages
+//  3+viewcolor
 //
-//  Created by woo on 1/20/25.
+//  Created by woo on 1/23/25.
 //
 
 import UIKit

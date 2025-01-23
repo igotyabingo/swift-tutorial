@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F3F3E4C22D3E2B4300083A0D /* 3+multipageswithsingleview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3+multipageswithsingleview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37CCFBA2D42168200A3B4A8 /* 3+viewcolor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3+viewcolor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F3F3E4D42D3E2B4400083A0D /* Exceptions for "3+multipageswithsingleview" folder in "3+multipageswithsingleview" target */ = {
+		F37CCFCC2D42168300A3B4A8 /* Exceptions for "3+viewcolor" folder in "3+viewcolor" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F3F3E4C12D3E2B4300083A0D /* 3+multipageswithsingleview */;
+			target = F37CCFB92D42168200A3B4A8 /* 3+viewcolor */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3F3E4C42D3E2B4300083A0D /* 3+multipageswithsingleview */ = {
+		F37CCFBC2D42168200A3B4A8 /* 3+viewcolor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F3F3E4D42D3E2B4400083A0D /* Exceptions for "3+multipageswithsingleview" folder in "3+multipageswithsingleview" target */,
+				F37CCFCC2D42168300A3B4A8 /* Exceptions for "3+viewcolor" folder in "3+viewcolor" target */,
 			);
-			path = "3+multipageswithsingleview";
+			path = "3+viewcolor";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3F3E4BF2D3E2B4300083A0D /* Frameworks */ = {
+		F37CCFB72D42168200A3B4A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3F3E4B92D3E2B4300083A0D = {
+		F37CCFB12D42168100A3B4A8 = {
 			isa = PBXGroup;
 			children = (
-				F3F3E4C42D3E2B4300083A0D /* 3+multipageswithsingleview */,
-				F3F3E4C32D3E2B4300083A0D /* Products */,
+				F37CCFBC2D42168200A3B4A8 /* 3+viewcolor */,
+				F37CCFBB2D42168200A3B4A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3F3E4C32D3E2B4300083A0D /* Products */ = {
+		F37CCFBB2D42168200A3B4A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3F3E4C22D3E2B4300083A0D /* 3+multipageswithsingleview.app */,
+				F37CCFBA2D42168200A3B4A8 /* 3+viewcolor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3F3E4C12D3E2B4300083A0D /* 3+multipageswithsingleview */ = {
+		F37CCFB92D42168200A3B4A8 /* 3+viewcolor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3F3E4D52D3E2B4400083A0D /* Build configuration list for PBXNativeTarget "3+multipageswithsingleview" */;
+			buildConfigurationList = F37CCFCD2D42168300A3B4A8 /* Build configuration list for PBXNativeTarget "3+viewcolor" */;
 			buildPhases = (
-				F3F3E4BE2D3E2B4300083A0D /* Sources */,
-				F3F3E4BF2D3E2B4300083A0D /* Frameworks */,
-				F3F3E4C02D3E2B4300083A0D /* Resources */,
+				F37CCFB62D42168200A3B4A8 /* Sources */,
+				F37CCFB72D42168200A3B4A8 /* Frameworks */,
+				F37CCFB82D42168200A3B4A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F3F3E4C42D3E2B4300083A0D /* 3+multipageswithsingleview */,
+				F37CCFBC2D42168200A3B4A8 /* 3+viewcolor */,
 			);
-			name = "3+multipageswithsingleview";
+			name = "3+viewcolor";
 			packageProductDependencies = (
 			);
-			productName = "3+multipages";
-			productReference = F3F3E4C22D3E2B4300083A0D /* 3+multipageswithsingleview.app */;
+			productName = "3+viewcolor";
+			productReference = F37CCFBA2D42168200A3B4A8 /* 3+viewcolor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3F3E4BA2D3E2B4300083A0D /* Project object */ = {
+		F37CCFB22D42168100A3B4A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					F3F3E4C12D3E2B4300083A0D = {
+					F37CCFB92D42168200A3B4A8 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = F3F3E4BD2D3E2B4300083A0D /* Build configuration list for PBXProject "3+multipageswithsingleview" */;
+			buildConfigurationList = F37CCFB52D42168100A3B4A8 /* Build configuration list for PBXProject "3+viewcolor" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F3F3E4B92D3E2B4300083A0D;
+			mainGroup = F37CCFB12D42168100A3B4A8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F3F3E4C32D3E2B4300083A0D /* Products */;
+			productRefGroup = F37CCFBB2D42168200A3B4A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3F3E4C12D3E2B4300083A0D /* 3+multipageswithsingleview */,
+				F37CCFB92D42168200A3B4A8 /* 3+viewcolor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3F3E4C02D3E2B4300083A0D /* Resources */ = {
+		F37CCFB82D42168200A3B4A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3F3E4BE2D3E2B4300083A0D /* Sources */ = {
+		F37CCFB62D42168200A3B4A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F3F3E4D62D3E2B4400083A0D /* Debug */ = {
+		F37CCFCE2D42168300A3B4A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "3+multipages/Info.plist";
+				INFOPLIST_FILE = "3+viewcolor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "woo.--multipages";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo.--viewcolor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -165,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		F3F3E4D72D3E2B4400083A0D /* Release */ = {
+		F37CCFCF2D42168300A3B4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -173,7 +173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "3+multipages/Info.plist";
+				INFOPLIST_FILE = "3+viewcolor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -184,7 +184,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "woo.--multipages";
+				PRODUCT_BUNDLE_IDENTIFIER = "woo.--viewcolor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -192,7 +192,7 @@
 			};
 			name = Release;
 		};
-		F3F3E4D82D3E2B4400083A0D /* Debug */ = {
+		F37CCFD02D42168300A3B4A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		F3F3E4D92D3E2B4400083A0D /* Release */ = {
+		F37CCFD12D42168300A3B4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3F3E4BD2D3E2B4300083A0D /* Build configuration list for PBXProject "3+multipageswithsingleview" */ = {
+		F37CCFB52D42168100A3B4A8 /* Build configuration list for PBXProject "3+viewcolor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3F3E4D82D3E2B4400083A0D /* Debug */,
-				F3F3E4D92D3E2B4400083A0D /* Release */,
+				F37CCFD02D42168300A3B4A8 /* Debug */,
+				F37CCFD12D42168300A3B4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3F3E4D52D3E2B4400083A0D /* Build configuration list for PBXNativeTarget "3+multipageswithsingleview" */ = {
+		F37CCFCD2D42168300A3B4A8 /* Build configuration list for PBXNativeTarget "3+viewcolor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3F3E4D62D3E2B4400083A0D /* Debug */,
-				F3F3E4D72D3E2B4400083A0D /* Release */,
+				F37CCFCE2D42168300A3B4A8 /* Debug */,
+				F37CCFCF2D42168300A3B4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3F3E4BA2D3E2B4300083A0D /* Project object */;
+	rootObject = F37CCFB22D42168100A3B4A8 /* Project object */;
 }
