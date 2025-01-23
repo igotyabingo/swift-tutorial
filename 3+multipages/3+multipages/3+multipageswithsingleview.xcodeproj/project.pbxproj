@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F3F3E4C22D3E2B4300083A0D /* 3+multipages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3+multipages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F3E4C22D3E2B4300083A0D /* 3+multipageswithsingleview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3+multipageswithsingleview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F3F3E4D42D3E2B4400083A0D /* Exceptions for "3+multipages" folder in "3+multipages" target */ = {
+		F3F3E4D42D3E2B4400083A0D /* Exceptions for "3+multipageswithsingleview" folder in "3+multipageswithsingleview" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F3F3E4C12D3E2B4300083A0D /* 3+multipages */;
+			target = F3F3E4C12D3E2B4300083A0D /* 3+multipageswithsingleview */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3F3E4C42D3E2B4300083A0D /* 3+multipages */ = {
+		F3F3E4C42D3E2B4300083A0D /* 3+multipageswithsingleview */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F3F3E4D42D3E2B4400083A0D /* Exceptions for "3+multipages" folder in "3+multipages" target */,
+				F3F3E4D42D3E2B4400083A0D /* Exceptions for "3+multipageswithsingleview" folder in "3+multipageswithsingleview" target */,
 			);
-			path = "3+multipages";
+			path = "3+multipageswithsingleview";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		F3F3E4B92D3E2B4300083A0D = {
 			isa = PBXGroup;
 			children = (
-				F3F3E4C42D3E2B4300083A0D /* 3+multipages */,
+				F3F3E4C42D3E2B4300083A0D /* 3+multipageswithsingleview */,
 				F3F3E4C32D3E2B4300083A0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		F3F3E4C32D3E2B4300083A0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3F3E4C22D3E2B4300083A0D /* 3+multipages.app */,
+				F3F3E4C22D3E2B4300083A0D /* 3+multipageswithsingleview.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3F3E4C12D3E2B4300083A0D /* 3+multipages */ = {
+		F3F3E4C12D3E2B4300083A0D /* 3+multipageswithsingleview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3F3E4D52D3E2B4400083A0D /* Build configuration list for PBXNativeTarget "3+multipages" */;
+			buildConfigurationList = F3F3E4D52D3E2B4400083A0D /* Build configuration list for PBXNativeTarget "3+multipageswithsingleview" */;
 			buildPhases = (
 				F3F3E4BE2D3E2B4300083A0D /* Sources */,
 				F3F3E4BF2D3E2B4300083A0D /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F3F3E4C42D3E2B4300083A0D /* 3+multipages */,
+				F3F3E4C42D3E2B4300083A0D /* 3+multipageswithsingleview */,
 			);
-			name = "3+multipages";
+			name = "3+multipageswithsingleview";
 			packageProductDependencies = (
 			);
 			productName = "3+multipages";
-			productReference = F3F3E4C22D3E2B4300083A0D /* 3+multipages.app */;
+			productReference = F3F3E4C22D3E2B4300083A0D /* 3+multipageswithsingleview.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3F3E4BD2D3E2B4300083A0D /* Build configuration list for PBXProject "3+multipages" */;
+			buildConfigurationList = F3F3E4BD2D3E2B4300083A0D /* Build configuration list for PBXProject "3+multipageswithsingleview" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3F3E4C12D3E2B4300083A0D /* 3+multipages */,
+				F3F3E4C12D3E2B4300083A0D /* 3+multipageswithsingleview */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3F3E4BD2D3E2B4300083A0D /* Build configuration list for PBXProject "3+multipages" */ = {
+		F3F3E4BD2D3E2B4300083A0D /* Build configuration list for PBXProject "3+multipageswithsingleview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3F3E4D82D3E2B4400083A0D /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3F3E4D52D3E2B4400083A0D /* Build configuration list for PBXNativeTarget "3+multipages" */ = {
+		F3F3E4D52D3E2B4400083A0D /* Build configuration list for PBXNativeTarget "3+multipageswithsingleview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3F3E4D62D3E2B4400083A0D /* Debug */,
